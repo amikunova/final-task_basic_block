@@ -20,8 +20,10 @@ string[] FilteredArray(string[] array)
             count++;
         }
     }
+    
     string[] resultArray = new string[count];
     int index = 0;
+    
     foreach (string b in array)
     {
         if (b.Length <= 3)
